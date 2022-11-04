@@ -70,6 +70,13 @@ li {
 
 header {
   height: calc(100vh - 80px);
+  display: flex;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 4px;
 }
 
 .row {
