@@ -50,8 +50,10 @@ li {
 
 .nav__link--primary {
   border: 0px solid #7342d6;
-  border-radius: 1%;
+  border-radius: 20px;
   background-color: #7342d6; 
+  margin: 0 auto;
+  padding-bottom: 8 20px
 }
 
 .nav__link:hover {
@@ -68,42 +70,14 @@ li {
   background-color: rgb(235, 236, 238);
 }
 
-header {
-  height: calc(100vh - 80px);
-  display: flex;
-}
-
 button {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 4px;
 }
-
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-
-}
-
-.head__container {
+#about-the___page{
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
-h1 {
-  font-size: 50px;
-  margin-bottom: 24px;
-  text-align: center;
-  padding-top: 40px;
-  width: 40%;
-}
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 32px;
-  text-align: left;
-  width: 40%;
-  font-weight: 2;
-}
