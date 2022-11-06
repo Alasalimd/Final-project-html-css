@@ -12,6 +12,11 @@ display: flex;
 padding-top: 20px;
 }
 
+.logo {
+  size-adjust: 200px;
+  justify-content: center;
+}
+
 .nav__container {
   width: 100%;
   max-width: 1200px;
