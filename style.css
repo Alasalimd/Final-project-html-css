@@ -1358,6 +1358,8 @@ h2 {
   .work__container {
     display: flex;
     flex-direction: column;
+    text-align: left;
+    align-items: center;
   }
 
   .work--img,
